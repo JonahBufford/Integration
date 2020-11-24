@@ -28,9 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b458987e-b6a3-4120-94a2-f3bdac997b22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/books.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/www.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.6" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Midterm" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -85,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605984807274</updated>
-      <workItem from="1605984808508" duration="20079000" />
+      <workItem from="1605984808508" duration="25604000" />
     </task>
     <servers />
   </component>
@@ -104,21 +106,33 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1220" height="174" key="GridCell.Tab.0.bottom" timestamp="1606161951944">
+    <state x="414" y="162" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606190420137">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1220" height="174" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1606161951944" />
-    <state width="1220" height="174" key="GridCell.Tab.0.center" timestamp="1606161951944">
+    <state x="414" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1606190420137" />
+    <state x="422" y="102" key="FileChooserDialogImpl" timestamp="1606181214747">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1220" height="174" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1606161951944" />
-    <state width="1220" height="174" key="GridCell.Tab.0.left" timestamp="1606161951944">
+    <state x="422" y="102" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1606181214747" />
+    <state width="1220" height="174" key="GridCell.Tab.0.bottom" timestamp="1606190803592">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1220" height="174" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1606161951944" />
-    <state width="1220" height="174" key="GridCell.Tab.0.right" timestamp="1606161951944">
+    <state width="1220" height="174" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1606190803592" />
+    <state width="1220" height="174" key="GridCell.Tab.0.center" timestamp="1606190803591">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1220" height="174" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1606161951944" />
+    <state width="1220" height="174" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1606190803591" />
+    <state width="1220" height="174" key="GridCell.Tab.0.left" timestamp="1606190803590">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1220" height="174" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1606190803590" />
+    <state width="1220" height="174" key="GridCell.Tab.0.right" timestamp="1606190803592">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1220" height="174" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1606190803592" />
+    <state x="413" y="63" key="RollbackChangesDialog" timestamp="1606190502725">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="413" y="63" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1606190502725" />
   </component>
 </project>
