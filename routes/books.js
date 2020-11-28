@@ -49,7 +49,6 @@ router.post('/', (request, response, next) => {
             }
             else{
                 console.log("responding");
-                response.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
                 let book = new BookSchema({
                     name: newBook.name,
                     author: newBook.author,
