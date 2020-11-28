@@ -11,6 +11,10 @@ var booksRouter = require('./routes/books');
 
 var app = express();
 
+var cors = require('cors');
+
+// use it before all route definitions
+app.use(cors({origin: '*'}));
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
@@ -32,12 +36,17 @@ app.use(function(req, res, next) {
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+  req.locals.message = err.message;
+  req.locals.error = req.app.get('env') === 'development' ? err : {};
+
+
+  req.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+  req.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+
 
   // render the error page
-  res.status(err.status || 500);
-  res.render('error');
+  req.status(err.status || 500);
+  req.render('error');
 });
 
 module.exports = app;
